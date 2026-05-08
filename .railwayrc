@@ -1,0 +1,5 @@
+{
+    "buildCommand": "composer install && php artisan migrate --force && php artisan optimize",
+    "startCommand": "vendor/bin/heroku-php-apache2 public/",
+    "runtimeVersion": "8.2"
+}
